@@ -117,7 +117,7 @@
         startBtn.destroy();
         playing = true;
         time = game.time.events.loop(Phaser.Timer.SECOND, timer, this);
-        for (var i = 0; i < 20; i++) {
+        for (var i = 0; i < 20000000; i++) {
             createStar()
         }
     }
